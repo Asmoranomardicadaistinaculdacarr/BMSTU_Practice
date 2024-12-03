@@ -1,5 +1,5 @@
 
-def Find_max(x):
+def max(x):
     if not x:
         return "Error"
     else:
@@ -15,4 +15,4 @@ while True:
     else:
         numbers.append(int(a))
 
-print(Find_max(numbers))
+print(max(numbers))
